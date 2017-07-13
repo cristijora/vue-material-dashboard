@@ -1,16 +1,11 @@
-# [Vue Paper Dashboard](https://cristijora.github.io/vue-paper-dashboard/) [![version][version-badge]][CHANGELOG] [![license][license-badge]][LICENSE]
+# [Vue Material Dashboard](https://cristijora.github.io/vue-material-dashboard/) [![version][version-badge]][CHANGELOG] [![license][license-badge]][LICENSE]
 
 > Admin dashboard based on paper dashboard UI template + vue-router
 
-This project is a vue version of [Paper-dashboard](https://www.creative-tim.com/product/paper-dashboard)
+This project is a vue version of [Material-dashboard](https://www.creative-tim.com/product/material-dashboard)
 designed for vue js.The dashboard includes vue-router and vuex
 
-Check the [Live Demo here](https://cristijora.github.io/vue-paper-dashboard).
-
-![](http://i.imgur.com/3iC1hOs.gif)
-
-## Documentation
-Link to [Documentation](https://cristijora.github.io/vue-paper-dashboard-docs/#/)
+Check the [Live Demo here](https://cristijora.github.io/vue-material-dashboard).
 
 ## Build Setup
 
