@@ -14,8 +14,10 @@
   },
   "dependencies": {
     "bootstrap": "^3.3.7",
+    "bootstrap-material-design": "^0.5.10",
     "chartist": "^0.10.1",
     "google-maps": "^3.2.1",
+    "jquery": "^3.2.1",
     "vue": "^2.3.0",
     "vue-clickaway": "^2.1.0",
     "vue-notifyjs": "^0.1.7",
@@ -24,6 +26,7 @@
   "devDependencies": {
     "autoprefixer": "^6.7.2",
     "babel-core": "^6.22.1",
+    "babel-eslint": "^7.2.3",
     "babel-loader": "^6.2.10",
     "babel-plugin-istanbul": "^3.1.2",
     "babel-plugin-transform-runtime": "^6.22.0",

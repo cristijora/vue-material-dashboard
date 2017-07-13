@@ -5,13 +5,16 @@
         "es6": true,
         "node": true
     },
+   "parser": "babel-eslint",
     "parserOptions": {
-        "ecmaFeatures": {
-            "jsx": true
-        },
-        "sourceType": "module"
+      "ecmaFeatures": {
+        "jsx": true
+      },
+      "allowImportExportEverywhere": true,
+      "sourceType": "module"
     },
     "rules": {
+        "no-debugger": 0,
         "no-const-assign": "warn",
         "no-this-before-super": "warn",
         "no-undef": "warn",

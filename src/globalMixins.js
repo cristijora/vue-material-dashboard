@@ -1,8 +1,13 @@
 const GlobalMixins = {
   install (Vue) {
     Vue.mixin({
-      mounted () {
-        $.material.init()
+      async mounted () {
+        import('jquery').then(async ($) => {
+          window.jQuery = window.$ = $
+          await import('bootstrap-material-design')
+          $.material.init()
+        }
+        )
       }
     })
   }
