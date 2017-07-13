@@ -1,6 +1,6 @@
 # [Vue Material Dashboard](https://cristijora.github.io/vue-material-dashboard/) [![version][version-badge]][CHANGELOG] [![license][license-badge]][LICENSE]
 
-> Admin dashboard based on paper dashboard UI template + vue-router
+> Admin dashboard based on material dashboard UI template + vue-router
 
 This project is a vue version of [Material-dashboard](https://www.creative-tim.com/product/material-dashboard)
 designed for vue js.The dashboard includes vue-router and vuex

@@ -1,7 +1,7 @@
 {
-  "name": "vue-admin-paper-dashboard",
+  "name": "vue-material-dashboard",
   "version": "1.0.0",
-  "description": "A sample admin dashboard based on paper dashboard UI template",
+  "description": "A sample admin dashboard based on material dashboard UI template",
   "author": "cristian.jora <cristian.jora@corebuild.eu>",
   "private": true,
   "scripts": {

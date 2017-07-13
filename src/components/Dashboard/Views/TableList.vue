@@ -1,21 +1,21 @@
 <template>
     <div class="row">
       <div class="col-md-12">
-          <paper-table :title="table1.title" :sub-title="table1.subTitle" :data="table1.data" :columns="table1.columns">
+          <material-table :title="table1.title" :sub-title="table1.subTitle" :data="table1.data" :columns="table1.columns">
 
-          </paper-table>
+          </material-table>
       </div>
 
       <div class="col-md-12">
-          <paper-table type="plain" :title="table2.title" :sub-title="table2.subTitle" :data="table2.data" :columns="table2.columns">
+          <material-table type="plain" :title="table2.title" :sub-title="table2.subTitle" :data="table2.data" :columns="table2.columns">
 
-          </paper-table>
+          </material-table>
       </div>
 
     </div>
 </template>
 <script>
-  import PaperTable from 'components/UIComponents/PaperTable.vue'
+  import MaterialTable from 'components/UIComponents/MaterialTable.vue'
   const tableColumns = ['Id', 'Name', 'Salary', 'Country', 'City']
   const tableData = [{
     id: 1,
@@ -55,7 +55,7 @@
 
   export default {
     components: {
-      PaperTable
+      MaterialTable
     },
     data () {
       return {
