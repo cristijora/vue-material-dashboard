@@ -1,18 +1,22 @@
 <template>
-    <div class="row">
-      <div class="col-md-12">
+  <div class="content">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
           <material-table :title="table1.title" :sub-title="table1.subTitle" :data="table1.data" :columns="table1.columns">
 
           </material-table>
-      </div>
+        </div>
 
-      <div class="col-md-12">
+        <div class="col-md-12">
           <material-table type="plain" :title="table2.title" :sub-title="table2.subTitle" :data="table2.data" :columns="table2.columns">
 
           </material-table>
-      </div>
+        </div>
 
+      </div>
     </div>
+  </div>
 </template>
 <script>
   import MaterialTable from 'components/UIComponents/MaterialTable.vue'

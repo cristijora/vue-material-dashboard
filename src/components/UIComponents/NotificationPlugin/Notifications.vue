@@ -36,7 +36,7 @@
 </script>
 <style lang="scss">
   .list-move {
-    transition: transform 0.3s, opacity 0.3s;
+    transition: transform 0.3s, opacity 0.4s;
   }
   .list-item {
     display: inline-block;

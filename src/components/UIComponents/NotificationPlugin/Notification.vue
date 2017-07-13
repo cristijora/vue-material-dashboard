@@ -14,7 +14,7 @@
       data-notify="dismiss"
       @click="close">×
     </button>
-    <i data-notify="icon" :class="icon" class="material-icons"></i>
+    <i data-notify="icon" class="material-icons">{{icon}}</i>
     <span data-notify="message" v-html="message"></span>
   </div>
 </template>
@@ -91,6 +91,7 @@
   @import "../../../assets/sass/md/variables";
   .alert {
     z-index: 100;
+    cursor: pointer;
     position: fixed;
 
     &.center {
