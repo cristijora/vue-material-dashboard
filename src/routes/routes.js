@@ -15,7 +15,7 @@ const routes = [
   {
     path: '/',
     component: DashboardLayout,
-    redirect: '/admin/overview'
+    redirect: '/admin/dashboard'
   },
   {
     path: '/admin',
