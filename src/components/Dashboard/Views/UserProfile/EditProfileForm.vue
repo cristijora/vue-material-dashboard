@@ -25,7 +25,7 @@
           </div>
           <div class="col-md-4">
             <fg-input type="email"
-                      label="Username"
+                      label="Email"
                       placeholder="Email"
                       v-model="user.email">
             </fg-input>
@@ -53,7 +53,7 @@
           <div class="col-md-12">
             <fg-input type="text"
                       label="Address"
-                      placeholder="Home Address"
+                      placeholder="Address"
                       v-model="user.address">
             </fg-input>
           </div>
@@ -77,7 +77,7 @@
           <div class="col-md-4">
             <fg-input type="number"
                       label="Postal Code"
-                      placeholder="ZIP Code"
+                      placeholder="Postal Code"
                       v-model="user.postalCode">
             </fg-input>
           </div>

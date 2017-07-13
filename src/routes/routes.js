@@ -20,10 +20,10 @@ const routes = [
   {
     path: '/admin',
     component: DashboardLayout,
-    redirect: '/admin/stats',
+    redirect: '/admin/dashboard',
     children: [
       {
-        path: 'overview',
+        path: 'dashboard',
         name: 'Material Dashboard',
         component: Dashboard
       },

@@ -4,6 +4,7 @@ import VueRouter from 'vue-router'
 // Plugins
 import GlobalComponents from './globalComponents'
 import GlobalDirectives from './globalDirectives'
+import GlobalMixins from './globalMixins'
 import Notifications from './components/UIComponents/NotificationPlugin'
 import SideBar from './components/UIComponents/SidebarPlugin'
 import App from './App'
@@ -21,6 +22,7 @@ import 'es6-promise/auto'
 Vue.use(VueRouter)
 Vue.use(GlobalComponents)
 Vue.use(GlobalDirectives)
+Vue.use(GlobalMixins)
 Vue.use(Notifications)
 Vue.use(SideBar)
 

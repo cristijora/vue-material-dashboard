@@ -6,7 +6,7 @@ const SidebarStore = {
     {
       name: 'Dashboard',
       icon: 'dashboard',
-      path: '/admin/overview'
+      path: '/admin/dashboard'
     },
     {
       name: 'User Profile',
